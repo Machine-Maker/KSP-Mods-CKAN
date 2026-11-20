@@ -8,6 +8,9 @@ CKAN metadata repository for Machine-Maker's KSP mods.
 ckan repo add Machine-Maker-Mods https://github.com/Machine-Maker/KSP-Mods-CKAN/archive/main.tar.gz
 ```
 
+Then install any mod listed here with `ckan install <identifier>`.
+
 ## Mods
 
-- **MechJebRTBridge** — Routes MechJeb autopilot commands through RemoteTech's signal-delay queue
+Each `<identifier>-<version>.ckan` file in this repo is one release of one mod. The files are
+committed automatically by each mod's release workflow.
